@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moore Moto</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #444;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .hero {
+            background-image: url('https://example.com/path-to-hero-image.jpg'); /* Replace with actual URL */
+            background-size: cover;
+            background-position: center;
+            color: black;
+            text-align: center;
+            padding: 100px 20px;
+        }
+        .hero h1 {
+            font-size: 3em;
+            margin: 0;
+            text-shadow: 2px 2px 5px white;
+        }
+        .hero p {
+            font-size: 1.2em;
+            text-shadow: 2px 2px 5px white;
+        }
+        .section {
+            padding: 20px;
+            text-align: center;
+        }
+        .services {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .service {
+            margin: 10px;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            width: 300px;
+            background: #f9f9f9;
+        }
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Moore Moto</h1>
+        <p>Your local destination for motorcycle repairs, sales, and purchases</p>
+    </header>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About Us</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact Us</a>
+    </nav>
+    <section class="hero" id="home">
+        <h1>Ride with Confidence</h1>
+        <p>Quality motorcycle services you can trust</p>
+    </section>
+    <section class="section" id="about">
+        <h2>About Moore Moto</h2>
+        <p>We are passionate about motorcycles and committed to providing top-notch service. Whether you're buying, selling, or in need of a repair, Moore Moto has you covered.</p>
+    </section>
+    <section class="section" id="services">
+        <h2>Our Services</h2>
+        <div class="services">
+            <div class="service">
+                <h3>Repairs</h3>
+                <p>Expert motorcycle repair services to keep you on the road.</p>
+            </div>
+            <div class="service">
+                <h3>Sales</h3>
+                <p>Browse our inventory of quality motorcycles.</p>
+            </div>
+            <div class="service">
+                <h3>Purchases</h3>
+                <p>We buy motorcycles at competitive prices.</p>
+            </div>
+        </div>
+    </section>
+    <section class="section" id="contact">
+        <h2>Contact Us</h2>
+        <p>Have questions? Get in touch!</p>
+        <form>
+            <input type="text" placeholder="Your Name" required><br>
+            <input type="email" placeholder="Your Email" required><br>
+            <textarea placeholder="Your Message" required></textarea><br>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2024 Moore Moto. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
